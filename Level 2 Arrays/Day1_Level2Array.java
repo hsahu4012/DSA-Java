@@ -1,4 +1,4 @@
-public class Day6_Level2Array {
+public class Day1_Level2Array {
 
     public static void printArray(int[] arr, int start,int end){
         for (int i = start; i < end; i++) {

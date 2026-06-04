@@ -1,4 +1,4 @@
-public class Day7_Level2Array {
+public class Day2_Level2Array {
     // Prints the elements of the given array in order
     public static void printArray(int[] arr){
         for (int i = 0; i < arr.length; i++) {

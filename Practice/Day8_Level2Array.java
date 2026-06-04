@@ -7,15 +7,16 @@ public class Day8_Level2Array {
         }
     }
     public static void findDuplicate(int[] arr){
-
         boolean[] visited = new boolean[arr.length];
         for (int i = 0; i < arr.length; i++) {
             if (visited[arr[i]]) {
-                System.out.println("Duplicate is : " + arr[i]);
+                System.out.println("Duplicate " + arr[i]);
                 break;
             }
             visited[arr[i]] = true;
         }
+
+        
     }
 
     public static void findAllDuplicate(int[] arr){
@@ -28,7 +29,7 @@ public class Day8_Level2Array {
                 arr[index] = -arr[index];
             }
         }
-        printArray(arr);
+        // printArray(arr);
     }
 
     public static void mergeTwoSortedArray(int[] arr1, int[] arr2){
@@ -54,7 +55,7 @@ public class Day8_Level2Array {
     }
 
     public static void arraysUnion(int[] arr1, int[] arr2){
-        HashSet<Integer> unionSet = new HashSet<>();
+       HashSet<Integer> unionSet = new HashSet<>();
         for(int num: arr1) unionSet.add(num);
         for(int num: arr2) unionSet.add(num);
 
@@ -103,9 +104,9 @@ public class Day8_Level2Array {
         // 35: Intersection of two arrays
         // Time: O(n + m)
         // Space: O(n)
-        int[] a = {1, 2, 3};
-        int[] b = {2, 3, 4};
-        arraysIntersection(a, b);
+        // int[] a = {1, 2, 3};
+        // int[] b = {2, 3, 4};
+        // arraysIntersection(a, b);
 
     }
 }

@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Day9_Level2Array {
+public class Day4_Level2Array {
 
     public static void printArray(int[] arr){
         for (int i = 0; i < arr.length; i++) {
